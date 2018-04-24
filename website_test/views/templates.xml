@@ -20,9 +20,6 @@
           inherit_id="website.website2_homepage"
           name="Legal advice Link">
     <xpath expr="//div[@id='wrap']" position="after">
-
-
-            <!-- هنا يمكننا نسخ اي صفحة كود نريده -->
             <header class="site-header">
                 <div class="top-header">
                     <div class="container">
