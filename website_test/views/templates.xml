@@ -14,12 +14,12 @@
             <script src="/r3_snippets/static/src/vendor/modernizr-2.6.2.min.js" type="text/javascript"/>
         </xpath>
     </template>
-    <!-- هنا نقوم بتحديد التيمبليت -->
+
     <template id="my_template" inherit_id="website.layout" name="Footer Copyright">
-        <!-- هنا يجب ان نحدد اين يكون هذخ المكتبة -->
+    
 
         <xpath expr="//header" position="after">
-            <!-- هنا يمكننا نسخ اي صفحة كود نريده -->
+       
             <header class="site-header">
                 <div class="top-header">
                     <div class="container">
