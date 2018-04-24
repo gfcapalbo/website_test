@@ -14,7 +14,8 @@
             <script src="/r3_snippets/static/src/vendor/modernizr-2.6.2.min.js" type="text/javascript"/>
         </xpath>
     </template>
-
+  <!-- /.Here the problem occurs : The page no longer appears on the home page -->
+    
     <template id="website.homepage" name="Homepage" page="True" priority="29">
         <t t-call="website.layout">
             <div id="wrap" class="oe_structure oe_empty"></div>
