@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-
+        <template id="contactus" name="Contact us" page="True">
+            <div class="oe_structure"/>
+            <h1><strong>Customer Service</strong></h1>
+            <h3><strong>How can we help you?</strong></h3>
+            <p>You can always call us or send us an e - mail! We are happy to tell you everything about our products and their possible applications.</p>
+            <p>Furthermore, we will always try to help you find the best solution for your problems.</p>
+            <p>We are available on weekdays from 08:
+                00 to 17:
+                    30 (GMT + 1)</p>
+            <div class="double">
+                <div class="row">
+                    <div class="col-md-4" style="padding-left:40px;">
+                        <h4><strong>Technotrading BV</strong></h4>
+                        <h5><strong>Office address:
+                            </strong></h5>
+                        <p>Calandstraat 78</p>
+                        <p>3125 BB, Schiedam</p>
+                        <p>The Netherlands</p>
+                        <h5><strong>Other contact information:
+                            </strong></h5>
+                        <p>Tel:
+                            +31 (0)10 - 262 08 44</p>
+                        <p>E - mail:
+                            info@technotrading.nl</p>
+                        <p>Fax:
+                            +31 (0)10 - 462 60 40</p>
+                        <p>If you want to send us an e - mail without opening your e - mail, you can use our<a>contact form.</a></p>
+                    </div>
+                    <div class="mt64 col-md-6" name="logo">
+                        <img src="/website_logo.png" width="420" height="67"/>
+                    </div>
+                </div>
+            </div>
+            <div class="oe_structure">
+                <div>
+                    <h3><strong>Do you have any administrative questions?</strong></h3>
+                    <p>About your invoice, for example? Our administration is available on weekdays from 08:
+                        00 to 16:
+                            00.</p>
+                    <h5><strong>Contact information:
+                        </strong></h5>
+                    <p>Tel:
+                        +31 (0)10 - 262 08 44</p>
+                    <p>Fax:
+                        +31 (0)10 - 462 60 40</p>
+                    <p>E - mail:
+                        boekhouding@technotrading.nl</p>
+                    <br/>
+                    <p>&#160;</p>
+                    <div id="iframe">
+                        <p style="font-weight: bold; font-size: 1.5em;"><strong>Map</strong></p>
+                    </div>
+                    <p>&#160;</p>
+                    <script type="text/javascript">//<![CDATA[
+                        $(document).ready(function(){
+                        $("#iframe").append('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4919.8612246345!2d4.394463762671606!3d51.9352191862828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4a8de66217de28b7!2sTechnotrading+Schiedam+BV!5e0!3m2!1snl!2snl!4v1444900332558" _mce_src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4919.8612246345!2d4.394463762671606!3d51.9352191862828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x4a8de66217de28b7!2sTechnotrading+Schiedam+BV!5e0!3m2!1snl!2snl!4v1444900332558" width="100%" height="300px" frameborder="0" style="border:0" _mce_style="border: 0;" allowfullscreen></iframe>');
+                        });
+                        // ]]></script>
+                </div>
+                <div>
+                    <h3><strong>We are closed on the following days:
+                        </strong></h3>
+                    <p>26 December 2016</p>
+                </div>
+                <div>
+                    <h3><strong>Other information</strong></h3>
+                    <p>BTW nummer:
+                        NL815185133B01</p>
+                    <p>KVK:
+                        Rotterdam 24388290</p>
+                    <p>Rekeningnummer(ABN) IBAN:
+                        NL09ABNA 046.65.36.739</p>
+                </div>
+            </div>
+        </template>
 
     </data>
 </odoo>
